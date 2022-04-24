@@ -1,4 +1,4 @@
-import {getTxBlock, getTxBlockBatch, initHive} from "./hive";
+import { getTxBlockBatch, initHive} from "./hive";
 import { createReturningLogFinder, LogFinderRule, ReturningLogFinderMapper } from "@terra-money/log-finder";
 
 /**
