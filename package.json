@@ -1,0 +1,43 @@
+{
+  "name": "terra-chain-events",
+  "version": "1.0.0",
+  "description": "",
+  "main": "run.js",
+  "type": "module",
+  "scripts": {
+    "start": "tsc && node dist/app.js",
+    "lint": "eslint . --ext .ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bd21/terra-chain-events.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bd21/terra-chain-events/issues"
+  },
+  "homepage": "https://github.com/bd21/terra-chain-events#readme",
+  "dependencies": {
+    "@graphql-tools/schema": "^8.3.0",
+    "@terra-money/log-finder": "^1.1.6",
+    "@terra-money/terra.js": "^3.0.2",
+    "@types/mocha": "^9.0.0",
+    "apollo-server": "^3.5.0",
+    "dayjs": "^1.10.7",
+    "graphql": "^16.2.0",
+    "graphql-type-json": "^0.3.2",
+    "graphql-request": "^3.7.0",
+    "graphql-scalars": "^1.12.0",
+    "node-fetch": "^3.1.1",
+    "typescript": "^4.5.4"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.20.0",
+    "@typescript-eslint/parser": "^5.20.0",
+    "eslint": "^8.14.0",
+    "typescript": "^4.6.3"
+  }
+}
